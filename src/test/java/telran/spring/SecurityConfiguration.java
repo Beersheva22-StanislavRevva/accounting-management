@@ -1,4 +1,4 @@
-package telran.spring.security;
+package telran.spring;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

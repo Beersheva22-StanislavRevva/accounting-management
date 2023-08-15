@@ -12,9 +12,9 @@ import lombok.Data;
 public class Account implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
-	@Size(min=4, message="username must be not less than 4 letters")
+	@Size(min=5, message="username must be not less than 5 letters")
 	final String username;
-	@Size(min=8, message="username must be not less than 5 letters")
+	@Size(min=8, message="username must be not less than 8 letters")
 	final String password;
 	LocalDateTime expDate;
 	@NotEmpty
